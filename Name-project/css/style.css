@@ -1,0 +1,47 @@
+*{
+	box-sizing: border-box;
+}
+img {
+	max-width: 100%;
+}
+h1 {
+	font-size: 24px
+	margin:30px 0 10px 0;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+a:link {
+	color: black;
+}
+a,a:visited {
+ color: red;
+font-weight: bold;
+}
+a:hover {
+	color: green;
+}
+a:active {
+	color: red;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
+}
+
+#main-menu a:hover, #main-menu a.active {
+	color: black;
+}
+#main-menu a.active {
+	font-weight: bold;
+}
+
+.wrap {
+	max-width: 1000px;
+	margin: auto;
+}
+#main-content img:hover {
+	border-radius: 50%;
+}

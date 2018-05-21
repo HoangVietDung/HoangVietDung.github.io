@@ -1,0 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+.box {
+	padding: 5px;
+	margin: 0;
+	float: left;
+	width: 33.3333333%;
+	border: 1px solid blue;
+	border-top-width: 5px;
+}
+.info {
+	border-color: orange;
+}
+.info span {
+	color: orange;
+}
+.contact {
+	border-color: red;
+}
+.contact span {
+	color: red;
+}
+.company {
+	border-color: green;
+}
+.company span {
+	color: green;
+}
+img {
+	width: 100%;
+}
+.active {
+	font-weight: bold;
+}
