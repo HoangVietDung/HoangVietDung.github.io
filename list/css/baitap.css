@@ -1,0 +1,96 @@
+body, h2{
+	margin: 0;
+}
+.wrap {
+	max-width: 100%
+}
+.banner {
+	height: 400px;
+}
+.banner img {
+	height: 400px;
+	width: 100%;
+}
+.wrap2 {
+	background-color: #4bcaff;
+	box-sizing: border-box;
+}
+.wrap2 .menu {
+	margin: auto;
+	background-color: #000000ba;
+	color: white;
+	height: 60px;
+	width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.wrap2 a,.portfolio a {
+	float: right;
+	margin: 10px 10px 10px 10px;
+	text-decoration: none;
+	color: white;
+}
+.style-menu {
+	max-width: 1000px;
+	margin: auto;
+	height: 40px;
+	margin-top: 10px;
+}
+.home {
+	border: 2px solid blue;
+	font-size: 12px;
+}
+.slogan {
+	text-align: center;
+	font-size: 26px;
+	margin-top: 130px;
+}
+.slogan span {
+		background-color: #000000ba;
+}
+.services {
+	color: white;
+	width: 1000px;
+	margin: auto;
+}
+.services img{
+	width: 20%;
+}
+h2, .portfolio a {
+	padding-top: 50px;
+    padding-bottom: 50px;
+}
+.services table{
+	text-align: left;
+	    padding-bottom: 50px;
+}
+.services td {
+	width: 25%;
+}
+.portfolio {
+	    box-sizing: border-box;
+    margin: auto;
+    width: 1000px;
+}
+.portfolio h2 {
+	float: left;
+}
+.portfolio a {
+	color: black;
+}
+.all {
+	border: 1px solid blue;
+}
+.pictures img, .background{
+	width: 23%;
+	float: left;
+	margin:7px 7px 7px 7px;
+}
+.test {
+	position: absolute;
+}
+.test:hover {
+	transition: all 0.2s linear;
+	opacity: 0.5;
+}
