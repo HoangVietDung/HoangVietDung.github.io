@@ -1,0 +1,161 @@
+body {
+	overflow: scroll;
+	margin:0;
+}
+.menu {
+	height: 2900px;
+	max-width: 20%;
+	float: left;
+	background: #272424;
+}
+.menu ul, .menu-2 ul{
+	padding: 0;
+	list-style-type: none;
+}
+.menu li {
+	border-bottom: 2px solid black;
+	padding-top: 8%;
+	padding-left: 13%;
+}
+.menu a {
+	text-decoration: none;
+	font-size: 24px;
+	color: white;
+}
+.ava img{
+	max-width: 100%;
+}
+.form {
+	box-sizing: border-box;
+	float: left;
+	max-width: 80%;
+}
+.banner img{
+	width: 100%;
+    position: relative;
+}
+.slogan {
+	text-align: center;
+	position: absolute;
+	top: 10%;
+	left: 28%;
+	max-width: 80%;
+}
+.in-menu {
+	max-width: 100%;
+}
+h1 {
+	font-size: 5vw;
+}
+h2 {
+	font-size: 3vw;
+}
+.slogan p, h1 {
+	color: white;
+	background: #575b5f94;
+}
+span {
+	border-bottom: 1px solid red;
+}
+button {
+	width: 22%;
+    height: 50%;
+    font-size: 3vw;
+    background: #fb6470;
+    color: white;
+}
+.portfolio {
+	width: 80%;
+	margin: auto;
+}
+.menu-2 {
+	max-width: 100%;
+}
+.menu-2 a {
+	text-decoration: none;
+	float: left;
+	color: black;
+	border-bottom: 1px solid black;
+	width: 25%;
+	text-align: center;
+	font-size: 2vw;
+}
+.menu-2 a:first-child{
+	border-bottom: 1px solid red;
+}
+.img {
+	margin: 5%;
+	max-width: 40%;
+	float: left;
+	color: white;
+}
+.img a {
+	text-decoration: none;
+	color: white;
+	border-bottom: 1px solid white;
+}
+.img img {
+	max-width: 100%;
+}
+h3 {
+	font-size: 2vw;
+}
+.i {
+	padding-left: 6%;
+	padding-bottom: 6%;
+}
+.mkt {
+	background: #353594;
+}
+.wd {
+	background: #b9b9b9;
+}
+.mpd {
+	background: #82adaf;
+}
+.mkt-2 {
+	background: #233948;
+}
+.mkt-3 {
+	background: #0f920d;
+}
+.sd {
+	background: #a9c701;
+}
+.about {
+	float: left;
+	width: 40%;
+}
+input {
+	width: 80%;
+    height: 30px;
+}
+textarea {
+	width: 80%;
+}
+.about button {
+	width: 36%;
+	font-size: 2vw;
+	float: right;
+	    margin-right: 18%;
+}
+.address {
+	border-left: 1px solid grey;
+	width: 50%;
+	float: left;
+}
+.address img{
+	width: 20%;
+}
+.content {
+	width: 80%;
+	float: left;
+}
+.source {
+	margin: 10%;
+		text-align: center;
+
+}
+.source img {
+	width: 3%;
+}
