@@ -1,0 +1,180 @@
+* {
+	box-sizing: border-box;
+	margin: auto;
+}
+.banner {
+	position: relative;
+}
+.menu {
+	position: absolute;
+	left: 10%;
+    top: 10px;
+    width: 80%;
+    height: 50px;
+}
+.banner img{
+	width: 100%;
+}
+a, li {
+	color: white;
+	list-style-type: none;
+	text-decoration: none;
+}
+.about{
+	color: yellow;
+	border-bottom: 2px solid yellow;
+}
+.menu1 {
+	width: 30%;
+	float: left;
+	font-size: 3vw;
+}
+.menu2 {
+	padding-top: 2%;
+	width: 70%;
+	display: flex;
+	font-size: 1.5vw;
+}
+.sologan{
+	text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+h2{
+	font-size: 3vw;
+}
+h1{
+	padding-top: 20px;
+	font-size: 5vw;
+}
+.learn-more a{
+	border: 1px solid white;
+}
+.learn-more {
+	padding-top: 2%;
+	text-align: center;
+}
+.menu3 li{
+	color: black;
+	width: 23%;
+	float: left;
+	border-top: 2px solid white;
+	margin-left: 2%;
+	font-size: 1.5vw;
+	height: 40px;
+	padding-top: 1%;
+}
+.menu3 {
+	position: absolute;
+	bottom: 4px;
+	left: 10%;
+	width: 80%;
+}
+.content {
+	width: 80%;
+}
+.main{
+	text-align: center;
+	margin-top: 5%;
+}
+.main p {
+	color: grey;
+	margin-top: 5%;
+}
+.img {
+	margin-top: 5%;
+}
+.pt {
+	width: 30%;
+	float: left;
+	margin: 1%;
+	position: relative;
+}
+.pt img {
+	    display: block;
+	width: 100%;
+}
+.number {
+	position: relative;
+	width: 100%;
+	background-color: black;
+	height: 150px;
+	margin-top: 10%;
+}
+.u{
+	position: absolute;
+	left: 10%;
+	width: 80%;
+}
+.u div{
+	color: white;
+	text-align: center;
+	float: left;
+	width: 20%;
+	border: 1px solid white;
+	background: black; 
+	height: 150px;
+}
+.list i {
+	color: #7adccf;
+	font-size: 40px;
+}
+.list {
+	width: 80%;
+}
+table{
+	margin-top: 5%;
+	width: 100%;
+}
+
+
+.list img{
+	width: 40%;
+}
+th {
+	width: 10%;
+}
+td {
+	width: 20%;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    display: none;
+    color: white;
+    text-align: center;
+		opacity: 0.8;
+}
+.pt:hover .background {
+	display: block;
+	transform: translate(-5px, -5px);
+	box-shadow: 10px 10px 20px 0 blue;
+}
+.background p{
+	padding-top: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
