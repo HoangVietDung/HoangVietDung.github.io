@@ -5,12 +5,9 @@
 body {
 	width: 80%;
 	margin-left: 10%;
-	background-color: grey;
+	background-color: #85e433;
 }
 .wrap {
-		box-shadow: 20px 20px 10px 10px #000000b8;
-	margin-bottom: 5%;
-	margin-top: 5%;
 	background: white;
 }
 .banner img{
@@ -30,7 +27,7 @@ h1 {
 	box-shadow: 20px 20px 10px #000000b8;
 	text-shadow: white 0.1em 0.1em 0.2em;
 }
-.content, .img {
+.content, .img, #speakers{
 	margin-top: 10%;
 	text-align: center;
 }
@@ -47,11 +44,12 @@ h2 {
 	margin-top: 10%;
 }
 p {
-	margin-top: 1%;
+	margin-top: 3%;
 	text-align: left;
 	margin-left: 10%;
 }
 h3 {
+	padding-bottom: 2%;
 	border-bottom: 1px solid black;
 	margin-bottom: 2%;
 }
@@ -62,4 +60,64 @@ h3 {
 	width: 30%;
 	float: left;
 	margin-left: 2.5%;
+}
+.people {
+	max-width: 30%;
+	float: left;
+	margin-left: 14%;	
+}
+.people img {
+	width: 100%;
+	border-radius: 50%;
+}
+.people p {
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: white
+}
+.menu li{
+	list-style-type: none;
+	float: left;
+	margin-left: 2%;
+}
+.menu {
+	top: 0;
+	left: 0;
+    position: fixed;
+    width: 100%;
+    background: #000000c9;
+}
+.home {
+	font-size: 2.5em;
+	color: #fff701;
+	margin-left: 20%;
+}
+.in-menu {
+	font-size: 1.5em;
+	margin-left: 40%;
+	color: white;
+}
+.in-menu li{
+	padding: 3%;
+}
+a:hover {
+	color: red;
+}
+#btt {
+	position: fixed;
+	right: -70px;
+	bottom: 10px;
+}
+#btt img {
+	width: 30%;
+	border-radius: 50%;
+	border: 2px solid black;
+}
+.people i {
+	font-size: 25px;
+}
+p {
+	font-size: 1.2em;
 }
