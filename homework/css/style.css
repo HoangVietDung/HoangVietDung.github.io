@@ -1,9 +1,9 @@
 body {
+	background: #272424;
 	overflow: scroll;
 	margin:0;
 }
 .menu {
-	height: 2900px;
 	max-width: 20%;
 	float: left;
 	background: #272424;
@@ -26,6 +26,7 @@ body {
 	max-width: 100%;
 }
 .form {
+	background: white;
 	box-sizing: border-box;
 	float: left;
 	max-width: 80%;

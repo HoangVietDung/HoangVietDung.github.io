@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    margin: auto
+}
+/* body{
+    float: left;
+    width: 100%;
+} */
+.clear{
+    clear: both;
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    background: black;
+}
+.wrap{
+    width: 80%;
+    /* height: 1000px; */
+    /* background: yellow; */
+    margin-top: 30px;
+}
+.content{
+    width: 100%;
+    /* height: 100%; */
+}
+.ct{
+    width: 48%;
+    height: 100px;
+}
+.ct1, #ct1, #ct6, #ct5{
+    background: red;
+    float: left;
+}
+.ct2, #ct2, #ct3, #ct4 {
+    background: red;
+    float: right;
+}
+.ct3{
+    /* margin-top: 30px; */
+    float: left;
+    height: 200px;
+    /* background: rgba(255, 0, 0, 0.212); */
+}
+#ct1, #ct4{
+    height: 100%;
+}
+#ct2, #ct3, #ct5, #ct6 {
+    height: 90px;
+}
+#ct3, #ct6{
+    margin-top: 20px;
+}
+#content, .slogan{
+    width: 100%;
+    margin-top: 30px;
+}
+.ct4{
+    float: right;
+    height: 200px;
+    /* background: rgba(255, 0, 0, 0.212); */
+}
+#slogan{
+    height: 50px;
+    background: red;
+    width: 50%;
+}
+#content-2{
+    margin-top: 30px;
+}
+.a{
+    width: 18%;
+    height: 150px;
+    background: red;
+}
+.b{
+    width: 26%;
+    margin-left: 4%;
+    height: 150px;
+    background: red;
+}
+.c{
+    width: 48%;
+    margin-left: 4%;
+    height: 150px;
+    background: red;
+}
+.content-2{
+    float: left;
+}
+#content-3, #content-4{
+    width: 100%;
+    margin-top: 30px;
+}
+.content-3 {
+    /* height: 300px; */
+    /* background: yellow; */
+    width: 32.33333%;
+    float: left;
+}
+.e, .f{
+    margin-left: 1.5%;
+}
+.on{
+    background: red;
+    width: 100%;
+    height: 300px;
+}
+.on-2, .on-3{
+    margin-top: 10px;
+}
+.in, .io {
+    width: 100%;
+    background: red
+}
+.in-1{
+    height: 350px;
+}
+.in-2{
+    margin-top: 10px;
+    height: 500px;
+}
+.io-1{
+    height: 200px;
+}
+.io-2{
+    height: 350px;
+    margin-top: 10px;
+}
+.io-3{
+    height: 450px;
+    margin-top: 10px;
+}
+.six{
+    width: 16.666666%;
+    float: left;
+    height: 150px;
+}
+.six-1{
+ background: wheat
+}
+.six-2{
+    background: rebeccapurple
+}
+.six-3{
+    background: blue
+}
+.six-4{
+    background: goldenrod
+}
+.six-5{
+    background: brown
+}
+.six-6{
+    background: gray
+}
+#b{
+    width: 100%;
+}
+.three {
+    float: left;
+    height: 150px;
+    width: 16.666666%;
+    margin-left: 8.3333%;
+    margin-right: 8.33333%;
+}
+.three-1{
+    background: yellowgreen
+}
+.three-2{
+    background: teal
+}
+.three-3{
+    background: rgb(206, 27, 137)
+}
