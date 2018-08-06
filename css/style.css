@@ -1,0 +1,13 @@
+h1 {
+	text-align: center;
+}
+* {
+	box-sizing: border-box;
+	margin: auto;
+}
+body {
+	width: 80%;
+}
+p {
+	margin-top: 2%;
+}

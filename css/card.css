@@ -1,0 +1,220 @@
+*{
+	box-sizing: border-box;
+}
+body {
+	margin:0;
+	padding: 0;
+	overflow-y: scroll;
+	background: url('../img/bg.jpg') center center no-repeat;
+}
+h1 {
+	margin: 30px;
+	text-transform: uppercase;
+	font-size: 35px;
+	text-align: center;
+	color: white;
+	background: #0000008a;
+}
+.wrap {
+	position: relative;
+	margin: auto;
+	padding: 15px;
+	max-width: 1265px;
+	max-height: 616px;
+}
+.card.flipped .back{
+		transform: rotateY(0deg);
+}
+.card.flipped .front{
+		transform: rotateY(180deg);
+}
+.content {
+	position: relative;
+	overflow: auto;
+}
+.grid {
+	float: left;
+	padding: 10px;
+}
+.card {
+	position: relative;
+}
+	
+.back {
+	transform: rotateY(180deg);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+/*.card:hover .back {
+	transform: rotateY(0deg);
+}
+.card:hover .front {
+	transform: rotateY(180deg);
+}*/
+.front, .back {
+	transition: all 0.5s;
+	backface-visibility: hidden;
+	width: 100%;
+}
+
+img {
+	width: 100%;
+	height: 150px;
+}
+.back {
+	transform: rotateY(180deg);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.card {
+	float: left;
+	max-width: 8%;
+	margin: 10px;
+}
+img{
+	box-shadow: 2px 2px 2px 2px;
+	border-radius: 10px;
+}
+.modal, .modal-backdrop {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1000;
+	display: none;
+}
+.modal-backdrop {
+  z-index: 900;
+  background-color: #000;
+  opacity: 0.5;
+}
+.animate {
+	animation-name: example;
+	animation-duration: 13s;
+}
+.modal .dialog {
+	border-radius: 5px;
+	margin: 50px auto;
+	padding: 10px;
+	width: 70%;
+	text-align: center;
+	background-color: #ffffff59;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+	overflow: auto;
+}
+.btn-reset{
+	width: 50%;
+	height: 50px;
+	font-size: 2em;
+	border: none;
+	background: white;
+}
+p {
+    color: #8aff8e;
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 2em;
+}
+ 
+.dialog img {
+	width: 70%;
+	height: 300px;
+}
+.btn {
+	font-size: 20px;
+	cursor: pointer;
+	color: #ffffff;
+	min-height: 50px;
+	border-radius: 40px;
+	min-width: 150px;
+	margin: 10px 10px 10px 10px;
+	vertical-align: middle;
+	transition: all .3s ease-out;
+	border: none;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.19), 0 2px 2px 0 rgba(0, 0, 0, 0.13);
+  }
+.btn-start.normal {
+	color: red;
+}
+  
+.btn-start.hard {
+	color: green;
+}
+#progressive {
+	margin-top: 50px;
+  }
+  
+#shadow {
+	width: 1160px;
+	margin: auto;
+	border-radius: 10px;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+@keyframes example {
+	0% {
+	  background-color: #FFFFFF;
+	}
+	5% {
+	  background-color: red;
+	}
+	10% {
+	  background-color: #FFFFFF;
+	}
+	15% {
+	  background-color: red;
+	}
+	20% {
+	  background-color: #FFFFFF;
+	}
+	25% {
+	  background-color: red;
+	}
+	30% {
+	  background-color: #FFFFFF;
+	}
+	35% {
+	  background-color: red;
+	}
+	40% {
+	  background-color: #FFFFFF;
+	}
+	45% {
+	  background-color: red;
+	}
+	50% {
+	  background-color: #FFFFFF;
+	}
+	55% {
+	  background-color: red;
+	}
+	60% {
+	  background-color: #FFFFFF;
+	}
+	65% {
+	  background-color: red;
+	}
+	70% {
+	  background-color: #FFFFFF;
+	}
+	75% {
+	  background-color: red;
+	}
+	80% {
+	  background-color: #FFFFFF;
+	}
+	85% {
+	  background-color: red;
+	}
+	90% {
+	  background-color: #FFFFFF;
+	}
+	95% {
+	  background-color: red;
+	}
+	100% {
+	  background-color: #FFFFFF;
+	}
+  }

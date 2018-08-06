@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    background: url("../img/bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+  
+@keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+    100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+    100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+    100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+    100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+} 
+  
+.wrap {
+    position: relative;
+    margin: auto;
+    max-width: 1265px;
+    max-height: 616px;
+    height: 100%;
+    margin: auto;
+    padding: 15px;
+}
+  
+.grid {
+    float: left;
+    padding: 10px;
+    width: 10%;
+}
+  
+.card {
+    position: relative;
+}
+  
+.back {
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+  
+.card.flipped .back {
+    transform: rotateY(0deg);
+}
+  
+.card.flipped .front {
+    transform: rotateY(180deg);
+}
+  
+.card:hover img {
+    box-shadow: 1px 1px 30px 0px rgba(0, 248, 255, 1);
+    cursor: pointer;
+}
+  
+/* .card .front,
+  .card .back {
+    transition: all 0.5s;
+    backface-visibility: hidden;
+} */
+  /* .front, .back {
+	transition: all 0.5s;
+	backface-visibility: hidden;
+	width: 100%;
+} */
+.front, .back {
+	transition: all 0.5s;
+	backface-visibility: hidden;
+	width: 100%;
+} 
+img {
+    border-radius: 10px;
+    width: 100%;
+    height: 150px;
+  }
+  
+.modal, .modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: none;
+}
+  
+.modal-backdrop {
+    z-index: 900;
+    background-color: #000;
+    opacity: 0.5;
+}
+.modal .dialog {
+	border-radius: 5px;
+	margin: 50px auto;
+	padding: 10px;
+	width: 70%;
+	text-align: center;
+	background-color: #ffffff59;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+  overflow: auto;
+  color: white;
+}
+h1 {
+	margin: 30px;
+	text-transform: uppercase;
+	font-size: 35px;
+	text-align: center;
+	color: white;
+	background: #0000008a;
+}
+.dialog img {
+	width: 70%;
+	height: 300px;
+}
+.btn {
+  font-size: 2em;
+    cursor: pointer;
+    color: #ffffff;
+    min-height: 50px;
+    border-radius: 40px;
+    min-width: 150px;
+    margin: 10px 10px 10px 10px;
+    vertical-align: middle;
+    transition: all .3s ease-out;
+    border: none;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.19), 0 2px 2px 0 rgba(0, 0, 0, 0.13);
+    font-family: 'Kirang Haerang', cursive;
+}
+.dialog{
+  background: #ffffff94;
+}
+.btn-reset {
+    background-color: gray;
+}
+  
+.btn-start.normal {
+    color: green;
+}
+  
+.btn-start.hard {
+    color: red;
+}
+  
+  
+  /*progress {
+  border-radius: 5px;
+    height: 25px;
+    width: 900px;
+  }
+  .progressbar {
+    margin-top: 40px;
+    text-align: center;
+  }*/
+  
+#progressive {
+    margin-top: 50px;
+}
+  
+#shadow {
+    width: 1160px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+  
+.animate {
+    animation-name: example;
+    animation-duration: 13s;
+}
+  
+@keyframes example {
+    0% {
+      background-color: #FFFFFF;
+    }
+    5% {
+      background-color: red;
+    }
+    10% {
+      background-color: #FFFFFF;
+    }
+    15% {
+      background-color: red;
+    }
+    20% {
+      background-color: #FFFFFF;
+    }
+    25% {
+      background-color: red;
+    }
+    30% {
+      background-color: #FFFFFF;
+    }
+    35% {
+      background-color: red;
+    }
+    40% {
+      background-color: #FFFFFF;
+    }
+    45% {
+      background-color: red;
+    }
+    50% {
+      background-color: #FFFFFF;
+    }
+    55% {
+      background-color: red;
+    }
+    60% {
+      background-color: #FFFFFF;
+    }
+    65% {
+      background-color: red;
+    }
+    70% {
+      background-color: #FFFFFF;
+    }
+    75% {
+      background-color: red;
+    }
+    80% {
+      background-color: #FFFFFF;
+    }
+    85% {
+      background-color: red;
+    }
+    90% {
+      background-color: #FFFFFF;
+    }
+    95% {
+      background-color: red;
+    }
+    100% {
+      background-color: #FFFFFF;
+    }
+}
+.btn-start.hard, .btn-start.normal{
+  font-size: 2em;
+}

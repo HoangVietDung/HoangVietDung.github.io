@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Memory Card</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <link rel="stylesheet" type="text/css" href="css/card2.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Kirang+Haerang" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1 style="color: white">Game Memory Card</h1>
+    <div class="modal begin">
+        <div class="dialog">
+            <h1>Select mode ^^~</h1>
+
+            <button class="btn btn-start normal" onclick="startGame(1)">Easy</button>
+            <button class="btn btn-start hard" onclick="startGame(2)">Normal</button>
+        </div>
+    </div>
+
+    <div class="modal win">
+        <div class="dialog">
+            <img src="img/win.jpg" />
+            <h1>You are Victory!!!</h1>
+            <h1>Good Job!!!</h1>
+            <button class="btn btn-reset" onclick="loadContent()" style="font-size: 2em;">Play again!!!</button>
+        </div>
+    </div>
+
+    <div class="modal lose">
+        <div class="dialog">
+            <img src="img/lose.jpg" />
+            <h1>You have been defeated???</h1>
+            <h1>So Stupid!!!</h1>
+            <button class="btn btn-reset" onclick="loadContent()" style="font-size: 2em;">Play again</button>
+        </div>
+    </div>
+
+    <div class="modal-backdrop"></div>
+
+    <div>
+        <div id="tuyet">
+
+            <div id="progressive">
+                <div class="progress" id="shadow">
+                    <div class="progress-bar progress-bar-danger six-sec-ease-in-out" role="progressbar" data-transitiongoal="100"></div>
+                </div>
+            </div>
+
+            <div class="wrap">
+           </div>
+        </div>
+    </div>
+
+    <audio id="bg-ms">
+        <source src="music/bg.mp3" type="">
+    </audio>
+
+    <audio id="w-ms">
+        <source src="music/win.mp3" type="">
+    </audio>
+    
+    <audio id="l-ms">
+        <source src="music/lose.mp3" type="">
+    </audio>
+    
+    <audio id="t-ms">
+        <source src="music/true.mp3" type="">
+    </audio>
+
+    <audio id="sound">
+        <source src="music/LuffyNhacChuong-V.A-3635722.mp3" type="">
+    </audio>
+    <audio id="f-ms">
+            <source src="music/wrong.mp3" type="">
+        </audio>
+    
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/card2.js"></script>
+</body>
+
+</html>
