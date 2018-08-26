@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background: #dfe4ea !important; */
+}
+.clear{
+    clear: both;
+}
+.banner {
+    width:  100%;
+    height:  100%;
+}
+
+div#carouselExampleIndicators {
+    width:  100%;
+    height: 100%;
+    z-index: 0;
+    margin-top: 140px;
+}
+li.nav-item.dropdown {
+    list-style:  none;
+    float:  right;
+}
+
+.hotline {
+    float:  left;
+    width: 50%;
+}
+
+i.fas.fa-phone {
+    font-size:  20px;
+    padding: 8px 8px;
+}
+
+a.nav-link.dropdown-toggle {
+    color:  black;
+}
+div#navbarNavAltMarkup {
+    margin-left: 12%;
+}
+
+a.nav-item.nav-link {
+    margin: 0 7%;
+}
+
+a.navbar-brand {
+    text-align: center;
+}
+
+span.logo {
+    font-size: 27px;
+    color:  red;
+}
+
+.menu {
+    position:  fixed;
+    z-index:  1;
+    width:  100%;
+    background: rgba(255, 255, 255, 0.76);
+    top:0;
+    left: 0;
+}
+a.nav-item.nav-link {
+    text-align:  center;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+    border-top: 1px solid black;
+}
+img.d-block.w-100 {
+    height: 662px;
+}
+.carousel-caption {
+    background: #000000bf;
+    margin-bottom: 20%;
+}
+.navbar-nav {
+    width: 100%;
+}
+a.nav-item.nav-link {
+    margin: auto;
+}
+.menu a.nav-item.nav-link {
+    font-size: 20px;
+  
+    color:  black;
+}
+.tab {
+    width:  33.3333%;
+}
+a.nav-item.nav-link.dropdown-toggle {
+    text-align:  center;
+}
+
+.dropdown-menu.show {
+    background: #ffffffc4;
+}
+.address {
+    background: white;
+}
+
+.dropdown-menu.show {
+    background: white;
+}
+
+button.btn {
+    width:  100%;
+    background:  none;
+}
+
+
+.card.bac {
+    margin: 10px 0;
+}
+
+h3 {
+    border-bottom:  2px solid;
+    height: 33px;
+    text-align:  center;
+    font-size: 22px !important;
+}
+iframe{
+    width: 100%;
+    height: 250px;
+}
+.copy {
+    text-align:  center;
+    margin-top: 20px;
+}
+.btt {
+    position:  fixed;
+    bottom:  0;
+    right: 20px;
+    font-size: 40px;
+    opacity: 0;
+}
+button.btn {
+    background: gainsboro;
+}
+p.gia {
+    font-size: 20px;
+    text-shadow: 1px 1px red;
+    color: red;
+}
+a.btn {
+    width:  100%;
+}
+.carousel-caption{
+    opacity: 0;
+}
+.dilen{
+    animation: len 2s forwards;
+    z-index: 0;
+}
+@-webkit-keyframes len{
+    0%{
+        opacity: 0;
+        transform: translateY(300px)
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px)
+    }
+}
+.col-3.icon {
+    opacity: 0;
+    text-align:  center;
+    font-size: 25px;
+}
+
+.icon i {
+    font-size: 60px;
+    border: 3px solid;
+    border-radius: 18%;
+    padding: 5px 5px;
+}
+
+div#pr {background: #e74c3c;}
+
+div#pr {
+    color: white;
+    margin:  30px 0;
+    padding:  30px 0;
+}
+
+div#tour-du-lich {
+    margin:  30px 0;
+}
+
+div#ngoainuoc {
+    margin: 30px 0;
+}
+
+p.gia.khuyenmai {
+    text-decoration:  line-through;
+}
+
+p.gia.sale {
+    color:  green;
+}
+
+.card-body {
+    text-align:  center;
+}
+
+p.card-text {
+    font-weight: bold;
+    font-size: 25px;
+}

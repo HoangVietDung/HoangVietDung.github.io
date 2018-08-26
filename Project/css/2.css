@@ -42,7 +42,7 @@ h3:hover {
 }
 .carousel-caption {
     margin-bottom: 10%;
-    background: #c8d6e58a;
+    background: #0000008c;
 }
 .menutren ul li {
     float:  left;
@@ -83,10 +83,10 @@ a.nav-link {
 a.nav-link:hover {
     background: #6d65655c;
 }
-a.navbar-brand {
+/* a.navbar-brand {
     border: 2px solid;
     padding: 0 4%;
-}
+} */
 a.btn {background:  #95a5a6;color: white;}
 
 a.btn:hover {
@@ -171,3 +171,13 @@ a.dropdown-item {text-align: center;}
 .nuocngoai {
     margin-top: 20px;
 }
+div#navbarNav {
+    margin-left: 12%;
+}
+.trongnuoc.container {
+    padding: 0;
+}
+button.btn:hover {
+    background: #3498db;
+}
+
