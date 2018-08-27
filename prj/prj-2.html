@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Du lịch Việt Nam</title>
+  <link rel="stylesheet" href="css/2.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="menutren">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+          <img src="https://dulichnhatrang365.vn/wp-content/uploads/2017/10/Travel_23-512.png" width="30" height="30" class="d-inline-block align-top"
+            alt="du lịch Việt Nam"> Du lịch
+          <br>
+          <span class="logo">Việt Nam</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Trang chủ
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tour trong nước</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tour nước ngoài</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Liên hệ</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tài khoản
+                <i class="fas fa-user-circle"></i>
+              </a>
+              <div class="dropdown-menu">
+                <button type="button" class="btn" data-toggle="modal" data-target="#dang-nhap">Đăng nhập</button>
+                <button type="button" class="btn" data-toggle="modal" data-target="#dang-ki">Đăng kí</button>
+
+                <a class="dropdown-item" href="#">Đăng xuất</a>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+  </header>
+  <div class="trangchu">
+    <div class="wrap">
+      <div id="carouselExampleIndicators" class="carousel slide col-auto" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 img-responsive" src="img/banner-5.jpg" alt="Đảo Phú Quốc">
+            <div class="momo"></div>
+            <div class="carousel-caption">
+              <h3>Đảo Phú Quốc</h3>
+              <p>Phú Quốc, còn được mệnh danh là Đảo Ngọc, là hòn đảo lớn nhất của Việt Nam. Đến với Phú Quốc bạn sẽ được đắm
+                mình vào 1 trong 10 bãi biển hoang sơ và đẹp nhất thế giới mang tên Bãi Dài, hay cảnh hoàng hôn tuyệt đẹp
+                trên Mũi Đinh Cậu...
+              </p>
+
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 img-responsive" src="img/banner-2.jpg" alt="Đảo Lý Sơn">
+            <div class="momo"></div>
+            <div class="carousel-caption">
+              <h3>Đảo Lý Sơn</h3>
+              <p>Lý Sơn là một huyện đảo của tỉnh Quảng Ngãi, nằm cách bờ khoảng 30km với những ngày nắng ấm mênh mang, những
+                bãi biển trong vắt và người dân vô cùng dễ mến. Đến Lý Sơn đừng quên ghé thăm Chùa Hang, Cổng Tò Vò, Đảo
+                Bé...
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 img-responsive" src="img/banner-3.jpg" alt="Đảo Cô Tô">
+            <div class="momo"></div>
+            <div class="carousel-caption">
+              <h3>Đảo Cô Tô</h3>
+              <p>Những thiên đường biển xanh cát trắng không chỉ có ở miền Trung và miền Nam nước ta. Ở phía Bắc, đảo Cô Tô
+                (Quảng Ninh) cũng ẩn chứa sức mê hoặc du khách bởi những bãi biển hoang sơ với bờ cát trắng và làn nước trong
+                xanh. Cô Tô nổi tiếng với Bãi đá Cầu Mỵ, Bãi biển Hồng Vàn...
+              </p>
+            </div>
+
+          </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-100 img-responsive" src="img/banner-4.jpg" alt="Phố Cổ Hội An">
+            <div class="momo"></div>
+            <div class="carousel-caption">
+              <h3>Hội An</h3>
+              <p>Nổi bật trong cung đường du lịch miền Trung, phố cổ Hội An như một bức tranh mộc mạc, giản dị và nên thơ. Dù
+                là ngày hay đêm, du lịch Hội An vẫn mang trong mình những vẻ đẹp lôi cuốn khác nhau.
+              </p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-100 img-responsive" src="img/banner-6.jpg" alt="Hà Giang">
+            <div class="momo"></div>
+            <div class="carousel-caption">
+              <h3>Hà Giang</h3>
+              <p>Có đóa hồng nào lại không có gai, có vẻ đẹp tuyệt mỹ nào lại dễ dàng chinh phục được, vẻ đẹp hiếm có của các
+                điểm du lịch ở Hà Giang có thể đứng hàng đầu trên dải đất hình chữ S này! Hãy một lần đến để phải ngỡ ngàng
+                trước vẻ mỹ lệ của thiên nhiên nơi địa đầu Tổ quốc ấy.
+              </p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+
+  <div class="trongnuoc container">
+    <h2>Điểm đến phổ biến trong nước</h2>
+    <nav>
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home"
+          aria-selected="true">Miền Bắc</a>
+        <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile"
+          aria-selected="false">Miền Trung</a>
+        <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact"
+          aria-selected="false">Miền Nam</a>
+      </div>
+    </nav>
+    <div class="tab-content container mienbac" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+        <div class="row" id="bac1">
+          <div class="col-md-4">
+            <div class="card bac" style="width: 18rem;" title="Thiên đường Cô Tô">
+              <img class="card-img-top" src="img/co-to.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Cô Tô</h5>
+                <p class="card-text">Cô Tô - nơi cách thiên đường chỉ một bước chân...
+                  <button type="button" class="btn" data-toggle="modal" data-target="#co-to">
+                    xem thêm
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="co-to" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Cô Tô</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="img/co-to.jpg" alt="" style="width: 100%;">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Check tour</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="#" class="btn">Check tour</a>
+              </div>
+            </div>
+          </div>
+          <div class="bac col-md-4">
+            <div class="card coto" style="width: 18rem;" title="Sapa mờ sương">
+              <img class="card-img-top" src="img/sa-pa.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Sapa</h5>
+                <p class="card-text">Sapa - thành phố trong sương huyền ảo
+                  <button type="button" class="btn" data-toggle="modal" data-target="#sapa">
+                    xem thêm
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="sapa" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Sapa</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="img/sa-pa.jpg" alt="" style="width: 100%;">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Check tour</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </p>
+                <a href="#" class="btn">Check tour</a>
+              </div>
+            </div>
+          </div>
+          <div class="bac col-md-4">
+            <div class="card coto" style="width: 18rem;" title="Hà Nội ngàn năm văn hiến">
+              <img class="card-img-top" src="img/ha-noi.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Hà Nội</h5>
+                <p class="card-text">Hà Nội - ngàn năm văn hiến...
+                  <button type="button" class="btn" data-toggle="modal" data-target="#ha-noi">
+                    xem thêm
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="ha-noi" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Hà Nội</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="img/ha-noi.jpg" alt="" style="width: 100%;">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Check tour</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </p>
+                <a href="#" class="btn">Check tour</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" id="bac2">
+          <div class="bac col-md-4">
+            <div class="card coto" style="width: 18rem;" title="Vùng đất xinh đẹp Mộc Châu">
+              <img class="card-img-top" src="img/moc-chau.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Mộc Châu</h5>
+                <p class="card-text">Mộc Châu - vùng đất xinh đẹp...
+                  <button type="button" class="btn" data-toggle="modal" data-target="#moc-chau">
+                    xem thêm
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="moc-chau" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Mộc Châu</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="img/moc-chau.jpg" alt="" style="width: 100%;">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Check tour</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </p>
+                <a href="#" class="btn">Check tour</a>
+              </div>
+            </div>
+          </div>
+          <div class="bac col-md-4">
+            <div class="card coto" style="width: 18rem;" title="Ninh Bình">
+              <img class="card-img-top" src="img/ninh-binh.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Ninh Bình</h5>
+                <p class="card-text">Ninh Bình - ôm trọn cố đô...
+                  <button type="button" class="btn" data-toggle="modal" data-target="#ninh-binh">
+                    xem thêm
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="ninh-binh" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Ninh Bình</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="img/ninh-binh.jpg" alt="" style="width: 100%;">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Check tour</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </p>
+                <a href="#" class="btn">Check tour</a>
+              </div>
+            </div>
+          </div>
+          <div class="bac col-md-4">
+            <div class="card coto" style="width: 18rem;" title="Nơi chốn riêng - Hà Giang">
+              <img class="card-img-top" src="img/ha-giang.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Hà Giang</h5>
+                <p class="card-text">Hà Giang - đất trời riêng, người ta sống thanh bình ở đó
+                  <button type="button" class="btn" data-toggle="modal" data-target="#ha-giang">
+                    xem thêm
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="ha-giang" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Hà Giang</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="img/ha-giang.jpg" alt="" style="width: 100%;">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Check tour</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </p>
+                <a href="#" class="btn">Check tour</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="tab-pane fade mientrung" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card coto" style="width: 18rem;" title="Huế thân thương">
+              <img class="card-img-top" src="img/hue.jpg" alt="Huế">
+              <div class="card-body">
+                <h5 class="card-title">Huế</h5>
+                <p class="card-text">Huế - thân thương, hiền dịu và nhẹ nhàng...
+                  <button type="button" class="btn" data-toggle="modal" data-target="#hue">
+                    xem thêm
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="hue" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="img/hue.jpg" alt="" style="width: 100%;">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Check tour</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </p>
+                <a href="#" class="btn">Check tour</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card coto" style="width: 18rem;" title="Đà Nẵng">
+              <img class="card-img-top" src="img/da-nang.jpg" alt="Đà Nẵng">
+              <div class="card-body">
+                <h5 class="card-title">Đà Nẵng</h5>
+                <p class="card-text">Đà Nẵng - thành phố tuyệt đẹp bên bờ sông Hàn...
+                  <button type="button" class="btn" data-toggle="modal" data-target="#da-nang">
+                    xem thêm
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="da-nang" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="img/da-nang2.jpg" alt="" style="width: 100%;">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Check tour</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </p>
+                <a href="#" class="btn">Check tour</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card coto" style="width: 18rem;" title="Hội An">
+              <img class="card-img-top" src="img/hoi-an.jpg" alt="Hội An">
+              <div class="card-body">
+                <h5 class="card-title">Hội An</h5>
+                <p class="card-text">Hội An - nhỏ bé và êm đềm...
+                  <button type="button" class="btn" data-toggle="modal" data-target="#hoi-an">
+                    xem thêm
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="hoi-an" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="img/hoi-an.jpg" alt="" style="width: 100%;">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Check tour</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </p>
+                <a href="#" class="btn">Check tour</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card coto" style="width: 18rem;" title="Đà Lạt thơ mộng">
+              <img class="card-img-top" src="img/da-lat.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Đà Lạt</h5>
+                <p class="card-text">Đà Lạt - thành phố mộng mơ...
+                  <button type="button" class="btn" data-toggle="modal" data-target="#da-lat">
+                    xem thêm
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="da-lat" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="img/da-lat.jpg" alt="" style="width: 100%;">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Check tour</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </p>
+                <a href="#" class="btn">Check tour</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card coto" style="width: 18rem;" title="Lý Sơn">
+              <img class="card-img-top" src="img/banner-2.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Lý Sơn - Quảng Ngãi</h5>
+                <p class="card-text">Lý Sơn - Đảo Jeju của Việt Nam...
+                  <button type="button" class="btn" data-toggle="modal" data-target="#ly-son">
+                    xem thêm
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="ly-son" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="img/co-to.jpg" alt="" style="width: 100%;">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Check tour</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </p>
+                <a href="#" class="btn">Check tour</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card coto" style="width: 18rem;" title="Nha Trang">
+              <img class="card-img-top" src="img/nha-trang2.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Nha Trang</h5>
+                <p class="card-text">Thành phố biển - Nha Trang
+                  <button type="button" class="btn" data-toggle="modal" data-target="#nha-trang">
+                    xem thêm
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="nha-trang" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="img/nha-trang2.jpg" alt="" style="width: 100%;">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Check tour</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </p>
+                <a href="#" class="btn">Check tour</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="tab-pane fade miennam" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+        <div class="row">
+          <div class="nam col-md-4">
+            <div class="card coto" style="width: 18rem;" title="Ngọc Đảo Phú Quốc">
+              <img class="card-img-top" src="img/banner-1.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Phú Quốc</h5>
+                <p class="card-text">Phú Quốc - Ngọc Đảo của Việt Nam...
+                  <button type="button" class="btn" data-toggle="modal" data-target="#phu-quoc">
+                    xem thêm
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="phu-quoc" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="img/nha-trang.jpg" alt="" style="width: 100%;">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Check tour</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </p>
+                <a href="#" class="btn">Check tour</a>
+              </div>
+            </div>
+          </div>
+          <div class="bac col-md-4">
+            <div class="card coto" style="width: 18rem;" title="Vũng Tàu">
+              <img class="card-img-top" src="img/vung-tau.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Vũng Tàu</h5>
+                <p class="card-text">Vũng Tàu - vẻ đẹp tự nhiên
+                  <button type="button" class="btn" data-toggle="modal" data-target="#vung-tau">
+                    xem thêm
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="vung-tau" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="img/vung-tau.jpg" alt="" style="width: 100%;">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Check tour</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </p>
+                <a href="#" class="btn">Check tour</a>
+              </div>
+            </div>
+          </div>
+          <div class="bac col-md-4">
+            <div class="card coto" style="width: 18rem;" title="Sài Gòn">
+              <img class="card-img-top" src="img/sai-gon.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">TP. Hồ Chí Minh</h5>
+                <p class="card-text">Hồ Chí Minh - thành phố mang tên Bác...
+                  <button type="button" class="btn" data-toggle="modal" data-target="#hcm">
+                    xem thêm
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="hcm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="img/sai-gon.jpg" alt="" style="width: 100%;">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Check tour</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </p>
+                <a href="#" class="btn">Check tour</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="bac col-md-4">
+            <div class="card coto" style="width: 18rem;" title="Vùng đất xinh đẹp Mộc Châu">
+              <img class="card-img-top" src="img/phan-thiet.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Phan Thiết</h5>
+                <p class="card-text">Phan Thiết - những đồi cát vàng óng...
+                  <button type="button" class="btn" data-toggle="modal" data-target="#phan-thiet">
+                    xem thêm
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="phan-thiet" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="img/phan-thiet.jpg" alt="" style="width: 100%;">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Check tour</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </p>
+                <a href="#" class="btn">Check tour</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card coto" style="width: 18rem;" title="Ninh Bình">
+              <img class="card-img-top" src="img/mien-tay.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Các tỉnh Miền Tây</h5>
+                <p class="card-text">Miền Tây - sông nước, cái buồn lặng lẽ và miên man...
+                  <button type="button" class="btn" data-toggle="modal" data-target="#mien-tay">
+                    xem thêm
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="mien-tay" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="img/mien-tay.jpg" alt="" style="width: 100%;">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Check tour</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </p>
+                <a href="#" class="btn">Check tour</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card coto" style="width: 18rem;" title="Bình Thuận">
+              <img class="card-img-top" src="img/binh-thuan.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Bình Thuận</h5>
+                <p class="card-text">Bình Thuận - đi về miền đất nắng...
+                  <button type="button" class="btn" data-toggle="modal" data-target="#binh-thuan">
+                    xem thêm
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="binh-thuan" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="img/binh-thuan.jpg" alt="" style="width: 100%;">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Check tour</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </p>
+                <a href="#" class="btn">Check tour</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="nuocngoai">
+      <h2>Điểm đến phổ biến nước ngoài</h2>
+      <div class="ngoai">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card thailan" style="width: 18rem;" title="Thái Lan">
+              <img class="card-img-top" src="img/thai-lan.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Thái Lan</h5>
+                <p class="card-text">Thái Lan - đất nước triệu voi...
+                  <button type="button" class="btn" data-toggle="modal" data-target="#thai-lan">
+                    xem thêm
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="thai-lan" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Thái Lan</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="img/thai-lan.jpg" alt="" style="width: 100%;">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Check tour</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </p>
+                <a href="#" class="btn">Check tour</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card thailan" style="width: 18rem;" title="Hàn Quốc">
+              <img class="card-img-top" src="img/han-quoc3.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Hàn Quốc</h5>
+                <p class="card-text">Hàn Quốc - xứ sở kim chi...
+                  <button type="button" class="btn" data-toggle="modal" data-target="#han-quoc">
+                    xem thêm
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="han-quoc" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="img/han-quoc3.jpg" alt="" style="width: 100%;">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Check tour</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </p>
+                <a href="#" class="btn">Check tour</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card thailan" style="width: 18rem;" title="Nhật Bản">
+              <img class="card-img-top" src="img/nhat-ban.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Nhật Bản</h5>
+                <p class="card-text">Nhật Bản - Đất nước mặt trời mọc...
+                  <button type="button" class="btn" data-toggle="modal" data-target="#nhat-ban">
+                    xem thêm
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="nhat-ban" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <img src="img/nhat-ban.jpg" alt="" style="width: 100%;">
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Check tour</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </p>
+                <a href="#" class="btn">Check tour</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="lienhe container">
+      <div class="row">
+        <h2>Du lịch Việt Nam</h2>
+        <div class="thong-tin col-md-6">
+          <h4>Công ty TNHH Du lịch Việt Nam</h4>
+          <p>Hà Nội:0965 658 695</p>
+          <p>Văn phòng Hà Nội: Tổ 18 - Thị trấn Đông Anh - Hà Nội</p>
+          <p>Hồ Chí Minh: 028 7109 9998</p>
+          <p>Văn phòng HCM: Tầng 5, tòa nhà HDTC, số 36 Bùi Thị Xuân, Q.1</p>
+          <p>Email: bondonganh@gmail.com</p>
+          <p></p>
+        </div>
+
+        <div class="ban-do col-md-6">
+          <h4>Bản đồ</h4>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59536.783470645554!2d105.81221139280598!3d21.150449499301633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135011877263c29%3A0xfed63a1860e09572!2zdHQuIMSQw7RuZyBBbmgsIMSQw7RuZyBBbmgsIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1534773587525"
+            width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Back to top -->
+  <div class="btt">
+    <a href="#">
+      <i class="fas fa-angle-up"></i>
+    </a>
+  </div>
+
+  <!-- Login -->
+  <!-- đăng nhập -->
+  <div class="modal fade" id="dang-nhap" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Đăng nhập</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email:</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Mật khâu:</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Nhớ tài khoản</label>
+            </div>
+            <button type="button" class="btn btn-primary">Quên mật khẩu</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Thoát</button>
+
+          <button type="button" class="btn">Đăng nhập</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- đăng kí -->
+  <div class="modal fade" id="dang-ki" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Đăng kí</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group row">
+              <label for="inputEmail3" class="col-sm-2 col-form-label">Email:</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputPassword3" class="col-sm-2 col-form-label">Mật khẩu:</label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="inputPassword3" class="col-sm-2 col-form-label">Ngày sinh:</label>
+              <div class="col-sm-10">
+                <input type="date" name="bday" max="2000-12-31">
+              </div>
+            </div>
+            <fieldset class="form-group">
+              <div class="row">
+                <legend class="col-form-label col-sm-2 pt-0">Giới tính:</legend>
+                <div class="col-sm-10">
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                      Nam
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                      Nữ
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Thoát</button>
+          <button type="button" class="btn">Đăng kí</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="clear"></div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="clear"></div>
+  <!-- bootstrap -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+    crossorigin="anonymous"></script>
+  <script src="js/2.js"></script>
+</body>
+
+</html>
