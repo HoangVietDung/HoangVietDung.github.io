@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .wrap {
     margin-top:  160px;
 }
@@ -62,4 +63,70 @@ span{
 .in-sologan {
     background: #ffffffe3;
     text-align:  center;
+=======
+.wrap {
+    margin-top:  160px;
+}
+.home{
+    background-image: url(../img/about/home.png);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 662px;
+}
+.content-1, .content-6, .content-2, .content-3, .content-4, .content-5 {
+    /* color: white; */
+    background: white;
+    height: 662px;
+    padding: 10% 0;
+    text-align:  center;}
+
+.chapter-1, .chapter-2, .chapter-3, .chapter-4, .chapter-5 {
+    height:  662px;
+    background-image: url(../img/about/1.jpg);
+    width: 100%;
+    background-size: cover;
+}
+.chapter-2{
+    background-image: url(../img/about/chapter1.jpg)
+}
+.chapter-3{
+    background-image: url(../img/about/chapter2.jpg)
+}
+.chapter-4{
+    background-image: url(../img/about/chapter3.jpg)
+}
+.chapter-5{
+    background-image: url(../img/about/chapter4.jpg)
+}
+.alo, .blo, .clo, .dlo, .elo, .flo{
+    opacity: 0;
+}
+
+h2.chu-to {
+    font-size:  290px;
+    background: #000000b8;
+    width:  20%;
+    /* margin-left:  5%; */
+    text-align:  center;
+    color: white;
+}
+
+.link a {
+    list-style-type:  none;
+    color:  black;
+    text-decoration:  initial;
+}
+span{
+    color: red;
+}
+.sologan.container {
+    padding-top:  200px;
+    font-size: 30px;
+}
+
+.in-sologan {
+    background: #ffffffe3;
+    text-align:  center;
+>>>>>>> c5677f044c86162044b653bbe7fa589bc829261e
 }

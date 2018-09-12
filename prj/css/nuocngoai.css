@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .home{
     background-image: url(../img/nuocngoai/nuocngoai.jpg);
     width: 100%;
@@ -24,4 +25,32 @@ h2 {
     text-align: center;
     margin:  10px 0;
     border-bottom: 2px dashed;
+=======
+.home{
+    background-image: url(../img/nuocngoai/nuocngoai.jpg);
+    width: 100%;
+    height: 650px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.home {
+    margin-top:  138px;
+}
+
+.sologan.container {
+    padding-top:  200px;
+}
+
+.sologan p{
+    background: #000000c7;
+    color: white;
+    padding:  10px 20px;
+    text-align:  center;
+    font-size: 21px;
+}
+h2 {
+    text-align: center;
+    margin:  10px 0;
+    border-bottom: 2px dashed;
+>>>>>>> c5677f044c86162044b653bbe7fa589bc829261e
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .home{
     background-image: url(../img/about/home.png);
     width: 100%;
@@ -14,4 +15,22 @@
     color: white;
     text-align:  center;
     font-size: 25px;
+=======
+.home{
+    background-image: url(../img/about/home.png);
+    width: 100%;
+    height: 650px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.sologan.container {
+    padding:  20%;
+}
+
+.in-sologan.animated.fadeInDown {
+    background: #000000e0;
+    color: white;
+    text-align:  center;
+    font-size: 25px;
+>>>>>>> c5677f044c86162044b653bbe7fa589bc829261e
 }
