@@ -1,0 +1,39 @@
+
+.home{
+    background-image: url(../img/dattour/background.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 662px;
+}
+p.lol {
+    color: black;
+    font-size:  20px;
+    font-weight: bold;
+}
+.content-dattour{
+    text-align: left
+}
+.content-dattour span{
+    color:  red;
+    font-style:  italic;
+}
+input[type="submit"] {
+    width:  20%;
+    font-weight:  bold;
+}
+.home {
+    margin-top:  142px;
+}
+
+.container {
+    text-align:  center;
+}
+.sologan {
+    padding-top:  200px;
+    font-size: 30px;
+}
+
+.in-sologan {
+    background: #ffffffde;
+}
